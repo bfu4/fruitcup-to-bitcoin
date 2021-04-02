@@ -8,10 +8,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Turn a fruit cup into a bitcoin??!!!' },
+      { hid: 'og:title', property: 'og:title', content: 'fruit cup to bitcoin' },
+      { hid: 'og:description', property: 'og:description', content: 'Turn a fruit cup into a bitcoin??!!!' },
+      { hid: 'og:author', property: 'og:author', content: 'bfu4' },
+      { name: 'theme-color', content: '#f9cd0b' },
+      { name: 'twitter:card', content: 'summary' },
+      { hid: 'og:image', property: 'og:image', content: '/cup.png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/cup.png' },
       { rel: '', type: 'font', href: '/FSEX300.ttf' }
     ]
   },
