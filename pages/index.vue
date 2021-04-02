@@ -12,7 +12,7 @@
         something that won't help you <b>AT ALL</b>! (what else could you ask for?)
       </p>
       <div @click="$data.clicked = !$data.clicked" class="column m-5 is-full">
-        <div v-if="!clicked" class="columns is-multiline is-centered center is-mobile">
+        <div v-if="!$data.clicked" class="columns is-multiline is-centered center is-mobile">
           <p class="column is-full">You see this little shit? <b>This is a fruit cup</b>. Click it, I dare you.</p>
           <figure class="column cup center">
             <img src="/cup.png" alt="fruit cup">
@@ -37,7 +37,7 @@
     </div>
     <div class="column mt-5">
       <a href="https://github.com/bfu4">
-        <font-awesome-icon style="font-size: 30px; opacity: 80%;" :icon="['fab', 'github']"></font-awesome-icon>
+        <font-awesome-icon style="font-size: 30px; opacity: 80%;" :icon="['fa', 'github']"></font-awesome-icon>
       </a>
     </div>
   </div>
