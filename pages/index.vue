@@ -3,7 +3,7 @@
   <div class="columns m-5 is-multiline is-centered is-mobile center">
     <div class="column m-5 columns is-centered center is-multiline is-mobile is-full">
       <p class="btitle is-narrow six-ease mb-5">
-        fruit bowl -> bitcoin
+        fruit cup -> bitcoin
       </p>
     </div>
     <div class="column m-5 columns is-centered center is-multiline is-mobile is-full">
@@ -37,7 +37,7 @@
     </div>
     <div class="column mt-5">
       <a href="https://github.com/bfu4">
-        <font-awesome-icon style="font-size: 30px; opacity: 80%;" :icon="['fa', 'github']"></font-awesome-icon>
+        <font-awesome-icon style="font-size: 30px; opacity: 80%;" :icon="['fab', 'github']"></font-awesome-icon>
       </a>
     </div>
   </div>
