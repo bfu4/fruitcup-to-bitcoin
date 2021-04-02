@@ -59,8 +59,7 @@ a {
 }
 
 a.spec {
-  opacity: 70%;
-  background-color: #333b47;
+  background-color: #282f39;
 }
 
 a:hover {
@@ -74,10 +73,10 @@ html, body {
 }
 
 .rate-card {
-  background-color: #38414e;
+  background-color: #303843;
   border-radius: 10px;
   max-width: 400px;
-  color: #a4a3a3;
+  color: #949393;
 }
 
 .scale-up:hover {
