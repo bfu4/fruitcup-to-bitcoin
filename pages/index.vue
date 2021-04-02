@@ -35,9 +35,11 @@
         <a class="spec" href="https://media.discordapp.net/attachments/826894920844443681/827288591670575144/ac1ed2a302c8649ca0dc0e35dca26cebc9e7ac0f.png">this</a>.
       </div>
     </div>
-    <div class="column mt-5">
-      <a href="https://github.com/bfu4">
-        <font-awesome-icon style="font-size: 30px; opacity: 80%;" :icon="['fab', 'github']"></font-awesome-icon>
+    <div class="column mt-5 columns is-mobile is-centered center">
+      <a href="https://github.com/bfu4" class="column center columns">
+        <figure class="column" style="width: 50px; height: 50px; filter: invert()">
+          <img src="/gh.ico" alt="github">
+        </figure>
       </a>
     </div>
   </div>
