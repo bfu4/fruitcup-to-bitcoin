@@ -1,0 +1,87 @@
+@import 'bulma/css/bulma.css';
+
+@font-face {
+  font-family: 'Fixedsys Excelsior';
+  src: url("./FSEX300.ttf");
+}
+
+* {
+  font-family: 'Fixedsys Excelsior', monospace;
+  color: #d7d1d1;
+}
+
+.btitle {
+  font-family: 'Fixedsys Excelsior', monospace;
+  font-size: 48px;
+  color: #bfb5b5;
+  opacity: 80%;
+}
+
+.btitle:hover {
+  color: #f9cd0b;
+}
+
+p {
+  color: #989898;
+}
+
+b {
+  color: #b07113;
+}
+
+.center {
+  text-align: center;
+  align-self: center;
+  alignment: center;
+  justify-self: center;
+}
+
+.six-ease {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.cup {
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.cup:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+  border-radius: 5px;
+  outline: 0;
+  color: #7f7f7f;
+}
+
+a.spec {
+  opacity: 70%;
+  background-color: #333b47;
+}
+
+a:hover {
+  opacity: 85%;
+  color: #7e5e08;
+}
+
+html, body {
+  background-color: #222831;
+  overflow-x: hidden;
+}
+
+.rate-card {
+  background-color: #38414e;
+  border-radius: 10px;
+  max-width: 400px;
+  color: #a4a3a3;
+  opacity: 70%;
+}
+
+.scale-up:hover {
+  transform: scale(1.2);
+}
