@@ -11,7 +11,7 @@
         Are you <b>fucking broke</b>? Looking for a way to make <b>BITCOIN</b>? Well, here is
         something that won't help you <b>AT ALL</b>! (what else could you ask for?)
       </p>
-      <div onclick="clicked = !clicked" class="column m-5 is-full">
+      <div @click="$data.clicked = !$data.clicked" class="column m-5 is-full">
         <div v-if="!clicked" class="columns is-multiline is-centered center is-mobile">
           <p class="column is-full">You see this little shit? <b>This is a fruit cup</b>. Click it, I dare you.</p>
           <figure class="column cup center">
@@ -49,8 +49,8 @@ import { convert } from 'current-currency';
 import Vue from 'vue'
 
 export default Vue.extend({
-  props: {
-    clicked: Boolean
+  data () {
+    return { clicked: false }
   },
   async asyncData () {
     return { btc: (await convert('USD', 0.49, 'BTC')).amount }
